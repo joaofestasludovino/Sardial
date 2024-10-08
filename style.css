@@ -1,0 +1,74 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Estilo da barra de navegação */
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Estilo do logotipo */
+.logo {
+    width: 50px;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer {
+    background: linear-gradient(to right, #ff6347, #333); /* Gradiente de cores */
+    color: white;
+    padding: 1px;
+    text-align: center;
+    font-family: 'Georgia', serif; /* Fonte estilizada */
+}
+div {
+    padding: 20px;
+    background-color: #f0f0f0; /* Cor de fundo para destacar a área */
+}
